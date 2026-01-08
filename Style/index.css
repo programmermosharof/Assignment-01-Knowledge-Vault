@@ -144,6 +144,7 @@ color: #FFFFFF;
 font-style: Semi Bold;
 font-size: 16px;
 font-weight: 600;
+box-shadow: 0px 10px 20px 0px #00000026;
 
 }
 .btn-b{
@@ -169,7 +170,7 @@ font-weight: 600;
 /*  notes section start */
 
 .notes{
-    background-color: #F1FFFF;
+    background-color: #FFFFFF;
     padding-top: 70px;
 }
 
@@ -198,7 +199,7 @@ color: #627382;
 .notes-cards{
     display: flex;
     gap: 10px;
-    /* margin-top: 30px; */
+    margin-top: 30px;
 }
 .card{
 
@@ -285,7 +286,7 @@ margin: 15px 0px 15px 0px ;
 }
 
 .brain-content p{
-width: 600px;
+
 color:#627382, ;
 font-family: Inter;
 font-style: Regular;
@@ -311,3 +312,43 @@ margin-bottom: 30px;
 }
 
 /* Second Brain Section :end */
+
+/* Early Access Section :start */
+.early-access{
+
+    margin-bottom: 120px;
+
+
+}
+
+.early-content{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 80px 40px 80px 40px;
+background-color: #F7F6F2;
+border-radius: 12px;
+
+
+}
+
+.early-content h2{
+color:  rgba(0, 25, 49, 1);
+font-style: Bold;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+}
+
+.early-content p{
+margin: 15px 0px 15px 0px ;
+color:#627382;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
